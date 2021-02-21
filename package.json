@@ -1,0 +1,19 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.1.0",
+    "@grpc/proto-loader": "^0.5.0",
+    "async": "^1.5.2",
+    "google-protobuf": "^3.0.0",
+    "minimist": "^1.2.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
